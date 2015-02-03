@@ -1,3 +1,3 @@
 # TSUKINI Team
 
-### Sorry, this isn't finished yet!
+### Sorry, it's not finished yet!
