@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<link rel="stylesheet" href="bootstrap.css"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<!-- Scripts for the animation -->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
 		<title>TSUKINI Team</title>
 	</head>
 	<body>
-		<div id="title">
-			<canvas id="myCanvas"></canvas>
-			<script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
-			<script type="text/javascript" src="main.js"></script>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Tsukini</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li class="disabled"><a href="#">Projects</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="http://github.com/Tsukini">Github</a></li>
+						<li><a id="img-link" href="http://github.com/Tsukini"><img src="assets/github-mark.png"/></a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="jumbotron">
+			<div class="container">
+				<canvas id="myCanvas"></canvas>
+				<script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+				<script type="text/javascript" src="main.js"></script>
+			</div>
 		</div>
-		<div id="content">
-			<h2>Oh! WAIT!</h2>
-			<p>This page isn't finished yet!</p>
-			<p>Please, come back later!</p>
+
+		<div class="content">
+			<div class="container">
+				<h2>Oh! WAIT!</h2>
+				<p>The page isn't finished yet!</p>
+				<p>Please, come back later!</p>
+			</div>
 		</div>
 	</body>
 </html>

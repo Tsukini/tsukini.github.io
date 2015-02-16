@@ -1,20 +1,26 @@
-#title {
-	height: 500px;
-	width: 1000px;
-	margin: auto;
+#img-link {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
-#content {
-	height: 100px;
-	width: 1000px;
-	margin: auto;
+.jumbotron {
+	padding-bottom: 0px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.jumbotron .container {
+	padding-left: 84px;
+	padding-right: 84px;
+}
+
+.content {
 	text-align: center;
 }
 
-h2 {
+.content h2 {
 	color: #90C000;
 }
 
-p {
+.content p {
 	color: #404040;
 }
