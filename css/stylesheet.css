@@ -1,0 +1,53 @@
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-36 { font-size: 36px; }
+.size-40 { font-size: 40px; }
+.size-48 { font-size: 48px; }
+.size-50 { font-size: 50px; }
+.size-60 { font-size: 60px; }
+.size-72 { font-size: 72px; }
+
+html {
+	background-color: #f7f7f7;
+}
+
+#nav-icon-link {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.jumbotron {
+	padding-bottom: 0px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.jumbotron .container {
+	padding-left: 84px;
+	padding-right: 84px;
+}
+
+.content {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.content h2,
+.content h4 {
+	color: #90C000;
+	font-weight: bold;
+}
+
+.content p {
+	color: #404040;
+}
+
+.coming-soon,
+.coming-soon h2,
+.coming-soon h4,
+.coming-soon p {
+	color: #e6e6e6;
+}
