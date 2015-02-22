@@ -9,4 +9,6 @@ bounceBubbles();
 function pudding() {
 	$(".jumbo-canvas").css({opacity: '1', position: 'relative'})
 	$(".logo-container").addClass("hide")
+
+	return "The ingredients of the pudding are on the table"
 }
